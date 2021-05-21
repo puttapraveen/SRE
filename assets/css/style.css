@@ -1044,8 +1044,17 @@ background: #fff;
   line-height: 25px;
   overflow: hidden;
 }
+.card li i{
+  top: 10px;
+  padding-right: 5px;
+}
+.card li{
+  list-style: none;
+}
 .card{
   height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 20px 30px 0 rgb(40 58 93 / 5%)
 }
 .card-work .card-category {
   display: inline-block;
