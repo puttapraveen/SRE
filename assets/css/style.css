@@ -949,12 +949,24 @@ background: #fff;
   width: 100%;
   background: #fff;
 }
+.contactus{
+  margin-top: 20px;
+}
 .contact{
   background: white;
   padding-bottom: 30px;
   padding-top: 30px;
-  margin: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  
   border-radius: 25px;
+}
+@media (min-width: 767px) {
+  .contact {
+    margin: 40px;
+    margin-top: 0%;
+  }
 }
 
 .contact .info i {
@@ -1237,8 +1249,8 @@ background: #fff;
 footer {
   text-align: center;
   color: #fff;
-  padding: 25px 0;
-  background: #0062d3;
+  padding: 15px 0;
+  background: #2487ce ;
 }
 
 footer .copyright {
