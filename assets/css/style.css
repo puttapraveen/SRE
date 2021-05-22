@@ -869,6 +869,7 @@ background: #fff;
     text-transform: uppercase;
     position: relative;
     color: #000000; }
+  
     .services-1 .desc h3:after {
       position: absolute;
       bottom: -15px;
@@ -1052,10 +1053,10 @@ background: #fff;
   list-style: none;
 }
 .card{
+  padding: 15px ;
   height: 100%;
   border-radius: 15px;
-  box-shadow: 0 20px 30px 0 rgb(40 58 93 / 5%)
-}
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
 .card-work .card-category {
   display: inline-block;
   color: #fff;
@@ -1073,7 +1074,12 @@ background: #fff;
   letter-spacing: .1px;
   margin-bottom: 0;
 }
-
+.card-img img{
+  height: 300px;
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
 .card-work .card-title {
   font-size: 1.3rem;
   margin-top: .6rem;
