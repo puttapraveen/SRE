@@ -95,7 +95,7 @@ a:hover {
 
 .paralax-mf {
   position: relative;
-  padding: 8rem 0;
+  padding: 3rem 0;
 }
 
 .display-table {
@@ -955,6 +955,7 @@ background: #fff;
 }
 .contact .container{
   background: white;
+  margin-bottom: 20px;
   padding:50px;
   border-radius: 25px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -1259,11 +1260,16 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
 --------------------------------------------------------------*/
 footer {
   text-align: center;
-  color: #fff;
+  color: black;
   padding: 15px 0;
-  background: #2487ce ;
+  background: white ;
 }
-
+footer i{
+  left: 0;
+  top: 2px;
+  font-size: 12px;
+  line-height: 1;
+} 
 footer .copyright {
   margin-bottom: .3rem;
 }
