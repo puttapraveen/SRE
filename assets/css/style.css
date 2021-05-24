@@ -837,14 +837,16 @@ background: #fff;
   margin-bottom: 40px;
   padding: 2em;
   background: rgba(255, 255, 255, 0.1);
-  width: 100%; }
-  .services-1 .icon {
-    display: block;
-    margin-bottom: 10px; }
-    .services-1 .icon i {
-      font-size: 30px;
-      line-height: 1.0;
-      color: #ffae1a;
+  width: 100%;
+ }
+.services-1 .icon {
+  display: block;
+  margin-bottom: 10px; 
+}
+.services-1 .icon i {
+  font-size: 30px;
+  line-height: 1.0;
+  color: #ffae1a;
     
      }
   .services-1 .desc h3 {
@@ -881,7 +883,9 @@ background: #fff;
   .services-1 .desc p {
     color: rgba(0, 0, 0, 0.7); }
   .services-1:hover {
-    background: white; }
+    background: white;
+    cursor: pointer;
+  }
     .services-1:hover .icon i {
       color: black; }
     .services-1:hover h3 {
