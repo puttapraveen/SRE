@@ -79,20 +79,6 @@ a:hover {
   }
 }
 
-.overlay-mf {
-  background-color: #0078ff;
-}
-
-.overlay-mf {
-  position: absolute;
-  top: 0;
-  left: 0px;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  opacity: .7;
-}
-
 .paralax-mf {
   position: relative;
   padding: 8rem 0;
@@ -916,17 +902,27 @@ background: #fff;
 # Counter
 --------------------------------------------------------------*/
 .counter-box {
-  color: #fff;
+  border-radius: 15px;
+  padding:20px;
+  background: white;
+  color: black;
   text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 30px;
 }
-
+.counter-box:hover{
+  background: whitesmoke;
+  color: black;
+  
+}
 @media (min-width: 577px) {
   .counter-box {
-    margin-bottom: 1.8rem;
+    margin-bottom: 1rem;
   }
 }
 
 .counter-ico {
+  padding-top: 30px;
   margin-bottom: 1rem;
 }
 
@@ -934,14 +930,20 @@ background: #fff;
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #0078ff;
 }
 
 .counter-num .counter {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 0;
+  color: #0062d3;
+  
 }
-
+.counter-text{
+  font-weight: 500;
+  color: #0062d3;
+  font-size: 1rem;
+}
 
 /*--------------------------------------------------------------
 # Contact
@@ -962,8 +964,8 @@ background: #fff;
 }
 @media (min-width: 767px) {
   .contact {
-    margin: 40px;
-    margin-top: 0%;
+    margin: 30px;
+    
   }
 }
 
