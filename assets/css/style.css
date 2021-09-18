@@ -305,8 +305,9 @@ a:hover {
   z-index: 11;
 }
 
-.back-to-top i {
-  font-size: 40px;
+.back-to-top ion-icon {
+  padding: 7px;
+  font-size: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
