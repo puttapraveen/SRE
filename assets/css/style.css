@@ -38,7 +38,7 @@ a:hover {
 }
 
 .color-text-a {
-  color: #4e4e4e;
+  color: #551313;
 }
 
 .box-shadow, .paralax-mf, .service-box, .work-box, .card-work {
@@ -779,7 +779,7 @@ a:hover {
   margin-top: 10px;
 }
 
-.about .content ul i {
+.about .content ul ion-icon {
   position: absolute;
   left: 0;
   top: 2px;
@@ -848,7 +848,7 @@ background: #fff;
   display: block;
   margin-bottom: 10px; 
 }
-.services-1 .icon i {
+.services-1 .icon ion-icon {
   font-size: 30px;
   line-height: 1.0;
   color: #ffae1a;
@@ -1129,12 +1129,13 @@ background: #fff;
   }
 }
 
-.contact .info i {
-  font-size: 20px;
+.contact .info ion-icon {
+  padding: 10px 10px 10px;
+  font-size: 10px;
   color: #1977cc;
   float: left;
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
   background: #d6e9fa;
   display: flex;
   justify-content: center;
@@ -1209,8 +1210,10 @@ background: #fff;
   line-height: 22px;
   overflow: hidden;
 }
-.card li i{
-  top: 10px;
+.card li ion-icon{
+  font-size: 12px;
+  color: #0062d3;
+  top: 12px;
   padding-right: 5px;
 }
 .card li{
@@ -1426,7 +1429,7 @@ footer {
   padding: 15px 0;
   background: white ;
 }
-footer i{
+footer ion-icon{
   left: 0;
   top: 2px;
   font-size: 12px;
